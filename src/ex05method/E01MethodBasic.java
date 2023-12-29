@@ -12,7 +12,7 @@ import java.util.Scanner;
 흐름이 돌아온다.
  */
 public class E01MethodBasic
-{
+{/* gighub 연동 완료 */
 		/*
 		메서드1 : 반환값O, 매개변수O 형태
 		=> 매개변수로 2개의 정수를 전달받아 합의 결과를 반환한다.
