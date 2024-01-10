@@ -10,14 +10,13 @@ public class QuPyramid02 {
 			do {
 				if(x<=y) {
 					System.out.print("*");
-				}
-				else {
-					System.out.print(""); 
-				}
-				y++;
-			}while (y<=5);
-			System.out.println(); 
+				} else {
+					System.out.print("");
+				} y++;
+			}while(y<=5);
 			x++;
-		}while (x<=5);
+			System.out.println();
+		}while(x<=5);
+	
 	}
 }

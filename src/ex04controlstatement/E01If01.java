@@ -66,19 +66,19 @@ public class E01If01 {
 		/*
 		 * 아스키코드를 알고있을때의 구현방법. 문자 0과 9가 아스키코드 48, 57에 해당되므로 구간내에 있는지 확인하면된다.
 		 */
-		if (asciiCode >= 48 && asciiCode <= 57) {
-			System.out.println("입력한 문자는 숫자입니다.");
-		} else {
-			System.out.println("입력한 문자는 숫자가 아닙니다.");
-		}
+//		if (asciiCode >= 48 && asciiCode <= 57) {
+//			System.out.println("입력한 문자는 숫자입니다.");
+//		} else {
+//			System.out.println("입력한 문자는 숫자가 아닙니다.");
+//		}
 
 		/*
 		 * 아스키코드를 모를때 구현하는 방법으로 문자 '0'과 '9'는 메모리에 저장시 아스키코드로 변화되므로 아래와같은 조건으로도 확인할 수 있다.
 		 */
 		if (asciiCode >= '0' && asciiCode <= '9') {
-			System.out.println("입력한 문자는 숫자입니다.[1]");
+			System.out.println("입력한 문자는 숫자입니다.");
 		} else {
-			System.out.println("입력한 문자는 숫자가 아닙니다.[1]");
+			System.out.println("입력한 문자는 숫자가 아닙니다.");
 		}
 
 	}// main 끝
