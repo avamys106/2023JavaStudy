@@ -29,7 +29,7 @@ class Unit{
 class Marin extends Unit{
 	String name;
 	public Marin(String name, int cost , int hp, int def, int atk, int pop) {
-		super(cost, hp, def, atk, pop);
+		super(50, 40, 0, 6, 1);
 		this.name = name;
 	}
 	@Override
@@ -46,7 +46,7 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		Marin marin = new Marin("마린",50, 40, 0, 6, 1);
+		Marin marin = new Marin("마린",0, 0, 0, 0, 0);
 		marin.showUnitInfo();
 	}
 
