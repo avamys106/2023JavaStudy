@@ -38,16 +38,31 @@ class Marin extends Unit{
 		System.out.println("체력:" + hp);
 		System.out.println("공격력:" + atk + " 방어력:" + def);
 	}
+
 }
 
 
 
 public class Test {
+	
+	public static void showInfo() {
+		System.out.println("-----목록선택-----");
+		System.out.print("1.플레이어 정보");
+		System.out.println("2.ㅁㄴㅇ");
+		System.out.print("3.유닛보기 ");
+		System.out.println("4.간략정보출력");
+		System.out.print("5.검색");
+		System.out.print("6.삭제");
+		System.out.println("7.프로그램종료");
+		System.out.println("메뉴선택>>>");
+	}
 
 	public static void main(String[] args) {
 
 		Marin marin = new Marin("s",0, 0, 0, 0, 0);
 		marin.showUnitInfo();
+		showInfo();
 	}
 
+	
 }

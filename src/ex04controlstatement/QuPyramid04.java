@@ -19,20 +19,15 @@ public class QuPyramid04 {
 
 		int a = 5;
 		int num = 1;
+		String star = "*";
 		for (int x = 1; x <= 9; x++) {
 			for (int y = 1; y <= x; y++) {
-//				System.out.print("*");
-				if (y <= a) {
+				if (x < a) {
 					System.out.print("*");
-//					a--;
+				} else if (x == a){
+					System.out.print("*");
 				} 
-				else {
-					a--;
-//					System.out.print("*");
-				}
 			}
-
-//			
 			System.out.println();
 		}
 	}
